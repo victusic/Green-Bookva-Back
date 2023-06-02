@@ -11,7 +11,7 @@ const OrderController = require('./routes/order.route');
 const FindController = require('./routes/find.route');
 const CheckController = require('./routes/check.route');
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 443;
 
 const app = express();
 app.use(express.json());
